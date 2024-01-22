@@ -37,7 +37,7 @@
       <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
          <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-            <a class="sidebar-brand brand-logo" href="{{route('user.dashboard')}}"><h3 class="text-light">Novagroove</h3></a>
+            <a class="sidebar-brand brand-logo" href="{{route('user.dashboard')}}"><h3 class="text-light">Nova Groove</h3></a>
          </div>
          @include('admin-portal.partial.nav')
       </nav>

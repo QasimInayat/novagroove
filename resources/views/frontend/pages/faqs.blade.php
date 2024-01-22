@@ -1235,7 +1235,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                         </div>
                         <div class="elementor-element elementor-element-e2043a6 elementor-widget elementor-widget-heading" data-id="e2043a6" data-element_type="widget" data-widget_type="heading.default">
                            <div class="elementor-widget-container">
-                              <h5 class="elementor-heading-title elementor-size-default">Becoming a Sharpline Member</h5>
+                              <h5 class="elementor-heading-title elementor-size-default">Becoming a Nova Groove Member</h5>
                            </div>
                         </div>
                         <div class="elementor-element elementor-element-7035f2e elementor-widget elementor-widget-accordion" data-id="7035f2e" data-element_type="widget" data-widget_type="accordion.default">
@@ -1345,7 +1345,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                           <span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
                                           <span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
                                        </span>
-                                       <a class="elementor-accordion-title" href="javascript:;">Can I switch to Sharpline from another distributor?</a>
+                                       <a class="elementor-accordion-title" href="javascript:;">Can I switch to Nova Groove from another distributor?</a>
                                     </div>
                                     <div id="elementor-tab-content-1172" data-id="1172" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1172" data-title="1172">
                                        <div class="page" title="Page 1">
@@ -1354,7 +1354,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                                 <div class="page" title="Page 1">
                                                    <div class="layoutArea">
                                                       <div class="column">
-                                                         <p>It’s a simple and straight forward process to switch to Sharpline from another distributor. Once you’ve uploaded your content to us we will check it over for you and get it delivered to all the digital services. You should then ask your former digital distributor to take your releases down. You don’t need to change UPCs or ISRCs and if you have a sizeable catalog we can help you with tools to bulk upload your catalog into our system. Your streaming and listener numbers on streaming platforms will remain intact.</p>
+                                                         <p>It’s a simple and straight forward process to switch to Nova Groove from another distributor. Once you’ve uploaded your content to us we will check it over for you and get it delivered to all the digital services. You should then ask your former digital distributor to take your releases down. You don’t need to change UPCs or ISRCs and if you have a sizeable catalog we can help you with tools to bulk upload your catalog into our system. Your streaming and listener numbers on streaming platforms will remain intact.</p>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -1369,13 +1369,13 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                           <span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
                                           <span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
                                        </span>
-                                       <a class="elementor-accordion-title" href="javascript:;">Is the Sharpline service open to record labels as well as artists?</a>
+                                       <a class="elementor-accordion-title" href="javascript:;">Is the Nova Groove service open to record labels as well as artists?</a>
                                     </div>
                                     <div id="elementor-tab-content-1173" data-id="1173" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1173" data-title="1173">
                                        <div class="page" title="Page 1">
                                           <div class="layoutArea">
                                              <div class="column">
-                                                <p>The Sharpline service is just as relevant to record labels as it is to artists and we already have great many record label clients. When you upload a new release to the Sharpline Portal you can set the label name for the release, and this label identity will be displayed on many digital stores and services. If your company operates a number of labels then you can choose which label to associate with each release when you upload it.</p>
+                                                <p>The Nova Groove service is just as relevant to record labels as it is to artists and we already have great many record label clients. When you upload a new release to the Nova Groove Portal you can set the label name for the release, and this label identity will be displayed on many digital stores and services. If your company operates a number of labels then you can choose which label to associate with each release when you upload it.</p>
                                              </div>
                                           </div>
                                        </div>
@@ -1419,7 +1419,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                         </div>
                         <div class="elementor-element elementor-element-35ecb9e elementor-widget elementor-widget-heading" data-id="35ecb9e" data-element_type="widget" data-widget_type="heading.default">
                            <div class="elementor-widget-container">
-                              <h5 class="elementor-heading-title elementor-size-default">Releasing Music Through Sharpline</h5>
+                              <h5 class="elementor-heading-title elementor-size-default">Releasing Music Through Nova Groove</h5>
                            </div>
                         </div>
                         <div class="elementor-element elementor-element-107de73 elementor-widget elementor-widget-accordion" data-id="107de73" data-element_type="widget" data-widget_type="accordion.default">
@@ -1440,7 +1440,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                                 <div class="page" title="Page 1">
                                                    <div class="layoutArea">
                                                       <div class="column">
-                                                         <p>Your music is submitted via the Sharpline Portal using the uploader. You will receive login details via email once we’ve processed your application and you have been accepted as a Sharpline member. From there you can log in to the Sharpline Portal and access the uploader to upload and distribute your music.</p>
+                                                         <p>Your music is submitted via the Nova Groove Portal using the uploader. You will receive login details via email once we’ve processed your application and you have been accepted as a Nova Groove member. From there you can log in to the Nova Groove Portal and access the uploader to upload and distribute your music.</p>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -1461,7 +1461,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                        <div class="page" title="Page 2">
                                           <div class="layoutArea">
                                              <div class="column">
-                                                <p>Sharpline has “Direct Live” status with iTunes which means that we are able to deliver a release into iTunes and make it live in the store very quickly. We have fast turnarounds with the other music services too</p>
+                                                <p>Nova Groove has “Direct Live” status with iTunes which means that we are able to deliver a release into iTunes and make it live in the store very quickly. We have fast turnarounds with the other music services too</p>
                                              </div>
                                           </div>
                                        </div>
@@ -1497,7 +1497,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                        <div class="page" title="Page 2">
                                           <div class="layoutArea">
                                              <div class="column">
-                                                <p>Sharpline supplies more than 100 digital partners in nearly 200 territories as part of our standard service, including all of the leading platforms.</p>
+                                                <p>Nova Groove supplies more than 100 digital partners in nearly 200 territories as part of our standard service, including all of the leading platforms.</p>
                                              </div>
                                           </div>
                                        </div>
@@ -1515,7 +1515,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                        <div class="page" title="Page 2">
                                           <div class="layoutArea">
                                              <div class="column">
-                                                <p>Beatport reserves the right to pick the music they make available for sale, and to help them identify which releases they would like to offer they require that each new label applies for inclusion on Beatport via their distributor. An application form is available to begin this process once you’ve been accepted to Sharpline.</p>
+                                                <p>Beatport reserves the right to pick the music they make available for sale, and to help them identify which releases they would like to offer they require that each new label applies for inclusion on Beatport via their distributor. An application form is available to begin this process once you’ve been accepted to Nova Groove.</p>
                                              </div>
                                           </div>
                                        </div>
@@ -1536,7 +1536,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                                 <div class="page" title="Page 2">
                                                    <div class="layoutArea">
                                                       <div class="column">
-                                                         <p>Sharpline is a YouTube Certified company and we can help you get the most from your video strategy. Sharpline will protect your rights on YouTube and collect any royalties you are due for the use of your music in user generated content (UGC) on YouTube. We will also deliver your music into the YouTube Music subscription service ensuring that you are paid for streams of your video and music content on the service. Get in touch with us if you would like to find out how we can help you manage your own YouTube channel. We can help you monetize your videos, limit piracy, and drive views to your music video content.</p>
+                                                         <p>Nova Groove is a YouTube Certified company and we can help you get the most from your video strategy. Nova Groove will protect your rights on YouTube and collect any royalties you are due for the use of your music in user generated content (UGC) on YouTube. We will also deliver your music into the YouTube Music subscription service ensuring that you are paid for streams of your video and music content on the service. Get in touch with us if you would like to find out how we can help you manage your own YouTube channel. We can help you monetize your videos, limit piracy, and drive views to your music video content.</p>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -1589,7 +1589,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                                          <div class="page" title="Page 2">
                                                             <div class="layoutArea">
                                                                <div class="column">
-                                                                  <p>Sharpline accounts to you around the 15th day of each month. We issue statements and corresponding payments 45 days after the end of the calendar month in which we receive revenues from digital services for your music.</p>
+                                                                  <p>Nova Groove accounts to you around the 15th day of each month. We issue statements and corresponding payments 45 days after the end of the calendar month in which we receive revenues from digital services for your music.</p>
                                                                </div>
                                                             </div>
                                                          </div>
@@ -1617,7 +1617,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                                 <div class="page" title="Page 3">
                                                    <div class="layoutArea">
                                                       <div class="column">
-                                                         <p>You can also see data feeds on the Sharpline App and in the Digital Sales Tracker in the AWAL Portal. We will support you using and understanding these tools to help you get the most value from your data.</p>
+                                                         <p>You can also see data feeds on the Nova Groove App and in the Digital Sales Tracker in the AWAL Portal. We will support you using and understanding these tools to help you get the most value from your data.</p>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -1677,7 +1677,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                           <span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
                                           <span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
                                        </span>
-                                       <a class="elementor-accordion-title" href="javascript:;">Can Sharpline provide a UPC code?</a>
+                                       <a class="elementor-accordion-title" href="javascript:;">Can Nova Groove provide a UPC code?</a>
                                     </div>
                                     <div id="elementor-tab-content-1972" data-id="1972" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1972" data-title="1972">
                                        <div class="page" title="Page 2">
@@ -1701,7 +1701,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                                           <span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
                                           <span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
                                        </span>
-                                       <a class="elementor-accordion-title" href="javascript:;">Can Sharpline provide an ISRC code?</a>
+                                       <a class="elementor-accordion-title" href="javascript:;">Can Nova Groove provide an ISRC code?</a>
                                     </div>
                                     <div id="elementor-tab-content-1973" data-id="1973" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1973" data-title="1973">
                                        <div class="page" title="Page 3">
@@ -1942,7 +1942,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
    <script src='../wp-content/plugins/advanced-backgrounds/assets/awb/awb.min.js?ver=1.9.2' id='nk-awb-js'></script>
    <script id='ae-pro-js-js-extra'>
       var aepro = {
-         "ajaxurl": "https:\/\/sharplinedistribution.com\/wp-admin\/admin-ajax.php",
+         "ajaxurl": "https:\/\/Sharplinedistribution.com\/wp-admin\/admin-ajax.php",
          "current_url": "https%3A%2F%2Fsharplinedistribution.com%2Ffaqs%2F",
          "breakpoints": {
             "xs": 0,

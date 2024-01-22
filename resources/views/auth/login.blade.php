@@ -7,7 +7,7 @@
           <img src="{{asset('assets/portal-revamp/img/partical.png')}}" class="w-100" width="200" alt="">
        </div>
        <div class="col-12 mb-3">
-          <h1 class=" text-center">Login to <span class="text-color-primary">{{env('APP_NAME')}}</span></h1>
+          <h1 class=" text-center">Login to <span class="text-color-primary">Nova Groove</span></h1>
        </div>
        <div class="auth">
           <div class="row">

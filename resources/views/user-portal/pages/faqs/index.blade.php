@@ -16,7 +16,7 @@
             <div class="col-lg-12">
                 <div class="frequentlyQsts">
                     <h2 style="color: white;">Answers to our most commonly asked questions</h2>
-                    <p>A more detailed FAQ is available to our members within the SHARPLINE DISTRO portal. Our support team is also available to help members plan their release and answer any questions.
+                    <p>A more detailed FAQ is available to our members within the Nova Groove portal. Our support team is also available to help members plan their release and answer any questions.
                     </p>
                 </div>
             </div>

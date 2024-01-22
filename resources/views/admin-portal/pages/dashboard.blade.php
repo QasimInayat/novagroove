@@ -6,7 +6,7 @@
 <div class="content-wrapper">
   <div class="row">
     <div class="container-fluid d-flex justify-content-between align-items-center p-2">
-      <h1 class="h1 mb-5 mt-2">Welcome to Novagroove</h1>
+      <h1 class="h1 mb-5 mt-2">Welcome to Nova Groove</h1>
 
     </div>
   </div>

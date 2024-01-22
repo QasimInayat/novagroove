@@ -97,10 +97,10 @@
 
                                         <div class="col-12">
                                             <div class="mb-lg-4 mb-3">
-                                                <label for="" class="form-label">Sharpline Distro
+                                                <label for="" class="form-label">Nova Groove
                                                     password</label>
                                                 <input type="password"
-                                                    placeholder="Sharpline Distro password"
+                                                    placeholder="Nova Groove password"
                                                     class="form-control custom-control"  name="password" value="{{ isset(bankAccount($bank,'paypal')->password) ? bankAccount($bank,'paypal')->password : null }}" required>
                                             </div>
                                         </div>
@@ -192,8 +192,8 @@
 
                                         <div class="col-12">
                                             <div class="mb-lg-4 mb-3">
-                                                <label for="" class="form-label">Sharpline Distro password</label>
-                                                <input type="password"  name="password"  placeholder="Sharpline Distro password" class="form-control custom-control" required>
+                                                <label for="" class="form-label">Nova Groove password</label>
+                                                <input type="password"  name="password"  placeholder="Nova Groove password" class="form-control custom-control" required>
                                             </div>
                                         </div>
 
@@ -292,8 +292,8 @@
 
                                         <div class="col-12">
                                             <div class="mb-lg-4 mb-3">
-                                                <label for="" class="form-label">Sharpline Distro password</label>
-                                                <input type="password" name="password"  placeholder="Sharpline Distro password" class="form-control custom-control" required>
+                                                <label for="" class="form-label">Nova Groove password</label>
+                                                <input type="password" name="password"  placeholder="Nova Groove password" class="form-control custom-control" required>
                                             </div>
                                         </div>
 
@@ -391,8 +391,8 @@
 
                                         <div class="col-12">
                                             <div class="mb-lg-4 mb-3">
-                                                <label for="" class="form-label">Sharpline Distro password</label>
-                                                <input type="password" name="password" placeholder="Sharpline Distro password" class="form-control custom-control" required>
+                                                <label for="" class="form-label">Nova Groove password</label>
+                                                <input type="password" name="password" placeholder="Nova Groove password" class="form-control custom-control" required>
                                             </div>
                                         </div>
 

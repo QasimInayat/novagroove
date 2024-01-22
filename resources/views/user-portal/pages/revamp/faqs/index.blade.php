@@ -1,19 +1,19 @@
 @extends('layouts.portal_revamp_scaffold')
 @push('title')
-    FAQs - 
+    FAQs -
 @endpush
 @push('buttonContent')
 <div class="mt-3">
     <h2 class="user-name">
         <span>Answers to our most commonly asked questions</span>
     </h2>
-    <p class="tag">A more detailed FAQ is available to our members within the SHARPLINE DISTRO
+    <p class="tag">A more detailed FAQ is available to our members within the Nova Groove
         portal. Our support team is also
         available to help members plan their release and answer any questions.</p>
 </div>
 @endpush
 @section('content')
-    
+
 <div class="row mt-2 px-lg-4">
     <div class="col-12">
         @if(isset($faqs) && !empty($faqs))
@@ -45,7 +45,7 @@
                                 </div>
                                 @endforeach
                             @endif
-                            
+
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
         @endforelse
         @endif
 
-     
+
     </div>
 </div>
 @endsection

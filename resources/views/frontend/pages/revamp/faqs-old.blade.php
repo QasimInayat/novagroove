@@ -10,7 +10,7 @@ FAQs
                 <div class="our-work">
                     <h1 class="font-oswald text-color-primary mb-5">Answers to our most commonly asked questions</h1>
 
-                    <h6 class="font-oswald text-white text-capitalize mb-3">A more detailed FAQ is available to our members within the SHARPLINE DISTRO portal. Our support team is also available to help members plan their release and answer any questions.</h6>
+                    <h6 class="font-oswald text-white text-capitalize mb-3">A more detailed FAQ is available to our members within the Nova Groove DISTRO portal. Our support team is also available to help members plan their release and answer any questions.</h6>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@ FAQs
     <div class="container custom-container">
         <div class="row">
             <div class="col-12">
-                <h5 class="font-oswald text-color-primary mb-3">Becoming a Sharpline Member</h5>
+                <h5 class="font-oswald text-color-primary mb-3">Becoming a Nova Groove Member</h5>
             </div>
         </div>
         <div class="row">
@@ -31,7 +31,7 @@ FAQs
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="memberOne">
                             <button class="accordion-button text-white font-oswald " type="button" data-bs-toggle="collapse" data-bs-target="#collapseMemberOne" aria-expanded="true" aria-controls="collapseMemberOne">
-                                <svg class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg> &nbsp; How do I apply to Sharpline Distro?
+                                <svg class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg> &nbsp; How do I apply to Nova Groove Distro?
                             </button>
                           </h2>
                           <div id="collapseMemberOne" class="accordion-collapse collapse" aria-labelledby="memberOne" data-bs-parent="#member">
@@ -43,24 +43,24 @@ FAQs
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="memberTwo">
                             <button class="accordion-button collapsed text-white font-oswald" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMemberTwo" aria-expanded="false" aria-controls="collapseMemberTwo">
-                                <svg class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg> &nbsp; Can I switch to Sharpline from another distributor?
+                                <svg class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg> &nbsp; Can I switch to Nova Groove from another distributor?
                             </button>
                           </h2>
                           <div id="collapseMemberTwo" class="accordion-collapse collapse" aria-labelledby="memberTwo" data-bs-parent="#member">
                             <div class="accordion-body">
-                              <p class="text-white">It’s a simple and straight forward process to switch to Sharpline from another distributor. Once you’ve uploaded your content to us we will check it over for you and get it delivered to all the digital services. You should then ask your former digital distributor to take your releases down. You don’t need to change UPCs or ISRCs and if you have a sizeable catalog we can help you with tools to bulk upload your catalog into our system. Your streaming and listener numbers on streaming platforms will remain intact.</p>
+                              <p class="text-white">It’s a simple and straight forward process to switch to Nova Groove from another distributor. Once you’ve uploaded your content to us we will check it over for you and get it delivered to all the digital services. You should then ask your former digital distributor to take your releases down. You don’t need to change UPCs or ISRCs and if you have a sizeable catalog we can help you with tools to bulk upload your catalog into our system. Your streaming and listener numbers on streaming platforms will remain intact.</p>
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="memberThree">
                             <button class="accordion-button collapsed text-white font-oswald" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMemberThree" aria-expanded="false" aria-controls="collapseMemberThree">
-                                <svg class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg> &nbsp; Is the Sharpline service open to record labels as well as artists?
+                                <svg class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg> &nbsp; Is the Nova Groove service open to record labels as well as artists?
                             </button>
                           </h2>
                           <div id="collapseMemberThree" class="accordion-collapse collapse" aria-labelledby="memberThree" data-bs-parent="#member">
                             <div class="accordion-body">
-                              <p class="text-white">The Sharpline service is just as relevant to record labels as it is to artists and we already have great many record label clients. When you upload a new release to the Sharpline Portal you can set the label name for the release, and this label identity will be displayed on many digital stores and services. If your company operates a number of labels then you can choose which label to associate with each release when you upload it.</p>
+                              <p class="text-white">The Nova Groove service is just as relevant to record labels as it is to artists and we already have great many record label clients. When you upload a new release to the Nova Groove Portal you can set the label name for the release, and this label identity will be displayed on many digital stores and services. If your company operates a number of labels then you can choose which label to associate with each release when you upload it.</p>
                             </div>
                           </div>
                         </div>
@@ -84,7 +84,7 @@ FAQs
 
         <div class="row mt-5">
             <div class="col-12">
-                <h5 class="font-oswald text-color-primary mb-3">Releasing Music Through Sharpline</h5>
+                <h5 class="font-oswald text-color-primary mb-3">Releasing Music Through Nova Groove</h5>
             </div>
         </div>
         <div class="row">
@@ -99,7 +99,7 @@ FAQs
                           </h2>
                           <div id="collapseMusicOne" class="accordion-collapse collapse" aria-labelledby="musicOne" data-bs-parent="#music">
                             <div class="accordion-body">
-                              <p class="text-white">Your music is submitted via the Sharpline Portal using the uploader. You will receive login details via email once we’ve processed your application and you have been accepted as a Sharpline member. From there you can log in to the Sharpline Portal and access the uploader to upload and distribute your music.</p>
+                              <p class="text-white">Your music is submitted via the Nova Groove Portal using the uploader. You will receive login details via email once we’ve processed your application and you have been accepted as a Nova Groove member. From there you can log in to the Nova Groove Portal and access the uploader to upload and distribute your music.</p>
                             </div>
                           </div>
                         </div>
@@ -111,7 +111,7 @@ FAQs
                           </h2>
                           <div id="collapsemusicTwo" class="accordion-collapse collapse" aria-labelledby="musicTwo" data-bs-parent="#music">
                             <div class="accordion-body">
-                              <p class="text-white">Sharpline has “Direct Live” status with iTunes which means that we are able to deliver a release into iTunes and make it live in the store very quickly. We have fast turnarounds with the other music services too</p>
+                              <p class="text-white">Nova Groove has “Direct Live” status with iTunes which means that we are able to deliver a release into iTunes and make it live in the store very quickly. We have fast turnarounds with the other music services too</p>
                             </div>
                           </div>
                         </div>
@@ -135,7 +135,7 @@ FAQs
                             </h2>
                             <div id="collapsemusicFour" class="accordion-collapse collapse" aria-labelledby="musicFour" data-bs-parent="#music">
                               <div class="accordion-body">
-                                <p class="text-white">Sharpline supplies more than 100 digital partners in nearly 200 territories as part of our standard service, including all of the leading platforms.</p>
+                                <p class="text-white">Nova Groove supplies more than 100 digital partners in nearly 200 territories as part of our standard service, including all of the leading platforms.</p>
                               </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@ FAQs
                             </h2>
                             <div id="collapsemusicFive" class="accordion-collapse collapse" aria-labelledby="musicFive" data-bs-parent="#music">
                               <div class="accordion-body">
-                                <p class="text-white">Beatport reserves the right to pick the music they make available for sale, and to help them identify which releases they would like to offer they require that each new label applies for inclusion on Beatport via their distributor. An application form is available to begin this process once you’ve been accepted to Sharpline.</p>
+                                <p class="text-white">Beatport reserves the right to pick the music they make available for sale, and to help them identify which releases they would like to offer they require that each new label applies for inclusion on Beatport via their distributor. An application form is available to begin this process once you’ve been accepted to Nova Groove.</p>
                               </div>
                             </div>
                         </div>
@@ -160,7 +160,7 @@ FAQs
                             </h2>
                             <div id="collapsemusicSix" class="accordion-collapse collapse" aria-labelledby="musicSix" data-bs-parent="#music">
                               <div class="accordion-body">
-                                <p class="text-white">Sharpline is a YouTube Certified company and we can help you get the most from your video strategy. Sharpline will protect your rights on YouTube and collect any royalties you are due for the use of your music in user generated content (UGC) on YouTube. We will also deliver your music into the YouTube Music subscription service ensuring that you are paid for streams of your video and music content on the service. Get in touch with us if you would like to find out how we can help you manage your own YouTube channel. We can help you monetize your videos, limit piracy, and drive views to your music video content.</p>
+                                <p class="text-white">Nova Groove is a YouTube Certified company and we can help you get the most from your video strategy. Nova Groove will protect your rights on YouTube and collect any royalties you are due for the use of your music in user generated content (UGC) on YouTube. We will also deliver your music into the YouTube Music subscription service ensuring that you are paid for streams of your video and music content on the service. Get in touch with us if you would like to find out how we can help you manage your own YouTube channel. We can help you monetize your videos, limit piracy, and drive views to your music video content.</p>
                               </div>
                             </div>
                         </div>
@@ -186,7 +186,7 @@ FAQs
                           </h2>
                           <div id="collapsesalseOne" class="accordion-collapse collapse" aria-labelledby="salseOne" data-bs-parent="#salse">
                             <div class="accordion-body">
-                              <p class="text-white">Sharpline accounts to you around the 15th day of each month. We issue statements and corresponding payments 45 days after the end of the calendar month in which we receive revenues from digital services for your music.</p>
+                              <p class="text-white">Nova Groove accounts to you around the 15th day of each month. We issue statements and corresponding payments 45 days after the end of the calendar month in which we receive revenues from digital services for your music.</p>
                             </div>
                           </div>
                         </div>
@@ -200,7 +200,7 @@ FAQs
                             <div class="accordion-body">
                               <p class="text-white">You can see your revenue on the monthly statement we add to your portal. All of these statements can be cross referenced in our Income Analysis Tool for all time revenue comparisons across territories and stores etc.</p>
 
-                              <p class="text-white">You can also see data feeds on the Sharpline App and in the Digital Sales Tracker in the AWAL Portal. We will support you using and understanding these tools to help you get the most value from your data.</p>
+                              <p class="text-white">You can also see data feeds on the Nova Groove App and in the Digital Sales Tracker in the AWAL Portal. We will support you using and understanding these tools to help you get the most value from your data.</p>
                             </div>
                           </div>
                         </div>
@@ -235,7 +235,7 @@ FAQs
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="issueTwo">
                             <button class="accordion-button collapsed text-white font-oswald" type="button" data-bs-toggle="collapse" data-bs-target="#collapseissueTwo" aria-expanded="false" aria-controls="collapseissueTwo">
-                                <svg class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg> &nbsp; Can Sharpline provide a UPC code?
+                                <svg class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg> &nbsp; Can Nova Groove provide a UPC code?
                             </button>
                           </h2>
                           <div id="collapseissueTwo" class="accordion-collapse collapse" aria-labelledby="issueTwo" data-bs-parent="#issue">
@@ -248,7 +248,7 @@ FAQs
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="issueThree">
                               <button class="accordion-button collapsed text-white font-oswald" type="button" data-bs-toggle="collapse" data-bs-target="#collapseissueThree" aria-expanded="false" aria-controls="collapseissueThree">
-                                  <svg class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg> &nbsp; Can Sharpline provide an ISRC code?
+                                  <svg class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg> &nbsp; Can Nova Groove provide an ISRC code?
                               </button>
                             </h2>
                             <div id="collapseissueThree" class="accordion-collapse collapse" aria-labelledby="issueThree" data-bs-parent="#issue">

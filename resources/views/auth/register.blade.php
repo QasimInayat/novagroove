@@ -23,7 +23,7 @@
           <img src="{{asset('assets/portal-revamp/img/partical.png')}}" class="w-100" width="200" alt="">
        </div>
        <div class="col-12 mb-3">
-          <h1 class=" text-center">Welcome to <span class="text-color-primary">Sharpline Distro</span></h1>
+          <h1 class=" text-center">Welcome to <span class="text-color-primary">Nova Groove</span></h1>
        </div>
        <div class="auth">
           <div class="row">
@@ -68,7 +68,7 @@
                       <div class="form-check mb-4">
                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onChange='agree($(this))'>
                          <label class="form-check-label" for="flexCheckDefault">&nbsp;
-                         I agree to <span class="text-color-primary">Sharpline Distro</span> <a href="{{route('site.termsOfService')}}" style="color:white" target="_blank">Terms & Conditions</a> and <a href="{{route('site.privacyPolicy')}}" style="color:white" target="_blank">Privacy Policy</a>
+                         I agree to <span class="text-color-primary">Nova Groove</span> <a href="{{route('site.termsOfService')}}" style="color:white" target="_blank">Terms & Conditions</a> and <a href="{{route('site.privacyPolicy')}}" style="color:white" target="_blank">Privacy Policy</a>
                          </label>
                       </div>
                       <small class="text-danger" id="msg"></small>

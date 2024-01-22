@@ -16,10 +16,10 @@
     <div class="card">
         <div class="card-body">
             <p class="markting-salutaion">
-                Thank you for signing up with Sharpline Distro to distribute & promote your music on The Press, Apple Music and Spotify. We promote every song & album released under Sharpline Distro for Free. We will need the following to start submitting your music to Media Outlets.
+                Thank you for signing up with Nova Groove to distribute & promote your music on The Press, Apple Music and Spotify. We promote every song & album released under Nova Groove for Free. We will need the following to start submitting your music to Media Outlets.
             </p>
             <p class="markting-salutaion">
-                Thank you for signing up with Sharpline Distro to     Please fill out the form below and our team will start your marketing campaign
+                Thank you for signing up with Nova Groove to     Please fill out the form below and our team will start your marketing campaign
                 on the single & album you will want us to promote
             </p>
             <p>NB: The song or album MUST be a new release with us</p>

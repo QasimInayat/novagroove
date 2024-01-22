@@ -72,7 +72,7 @@ input[type=submit] {
             <div class="card-body px-0">
 
                 <div class="col-12 px-3">
-                    <h2 class="page-title">Sharpline Distro Referral Program</h2>
+                    <h2 class="page-title">Nova Groove Referral Program</h2>
                     <p class="tab-title   mt-3">Invite other musicians and earn Money on your Credit Balance for FREE!</p>
                     <p >Share your unique link with other musicians you know. You'll get paid every time one of them signs up to a paid account.</p>
 
@@ -89,7 +89,7 @@ input[type=submit] {
                     </div>
 
                     <p class="tab-title   mt-3">HOW IT WORKS</p>
-                    <p>For each one of your friends who signs up to Sharpline Distro using your unique sharing link and upgrades to a paid account, you earn a bonus to your credit balance depending on which package or plan your friend subscribes to. Your friend(s) will get a 60 day trial to try out our Services and when they like our services and buy our packages, you will immediately get paid.</p>
+                    <p>For each one of your friends who signs up to Nova Groove using your unique sharing link and upgrades to a paid account, you earn a bonus to your credit balance depending on which package or plan your friend subscribes to. Your friend(s) will get a 60 day trial to try out our Services and when they like our services and buy our packages, you will immediately get paid.</p>
                     <ol>
                         <li>If your friend subscribes to the Starter plan which is $13.99 per year, we will credit you $3</li>
                         <li>If your friend subscribes to the Artist plan which is $25.99 per year, we will credit you $10</li>

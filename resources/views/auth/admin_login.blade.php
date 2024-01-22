@@ -13,8 +13,8 @@
 <div class="container login-container">
     <div class="row">
         <div class="col-lg-12 text-center">
-            <!-- <img src="{{asset('web/images/logoSharpline.png')}}" alt="" class="brand-img"> -->
-            <h1 class="h1 text-white m-0">Welcome to <span class="brand-color">Sharpline Distro</span></h1>
+            {{-- <!-- <img src="{{asset('web/images/logoSharpline.png')}}" alt="" class="brand-img"> --> --}}
+            <h1 class="h1 text-white m-0">Welcome to <span class="brand-color">Nova Groove</span></h1>
         </div>
     </div>
     {!! Form::open(['route' => 'admin.login', 'class' => 'mt-3', 'id' => 'form']) !!}
@@ -36,7 +36,7 @@
             <button type="submit" class="btn btn-lg btn-block btn_cst">Login Account</button>
         </div>
         <div class="col-lg-12 mt-2 d-flex justify-content-between">
-            <p class="text-white">Don't have <span style="color:white;">Sharpline</span> Account <a
+            <p class="text-white">Don't have <span style="color:white;">Nova Groove</span> Account <a
                     href="{{route('register')}}" style="color: white;">Sign Up</a></p>
 
             <p><a href="{{url('password/reset')}}" style="color:white;">Forgot Password?</a></p>
