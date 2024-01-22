@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharpline Distribution</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <!--msb: main sidebar-->
+        <div class="msb" id="msb">
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header position-relative">
+                    <span class="close menu-toggle  d-lg-none d-block"><i class="fa-solid fa-xmark"></i></span>
+                    <div class="brand-wrapper">
+                        <!-- Brand -->
+                        <div class="brand-name-wrappers">
+                            <a class="navbar-brand" href="#">
+                                <img src="./assets/img/logoSharpline.png" width="180" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Main Menu -->
+                <div class="side-menu-container w-100">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="btn disabled border-0">Your Dashboard</a></li>
+                        <li><a href="#" class="btn active">Home</a></li>
+                        <li><a href="#" class="btn">Create Release</a></li>
+                        <li><a href="#" class="btn">Free Marketing Campaign</a></li>
+                        <li><a href="#" class="btn">My Releases</a></li>
+                        <li><a href="#" class="btn">Credit Balance</a></li>
+                        <li><a href="#" class="btn">My Accounts</a></li>
+                        <li><a href="#" class="btn">Support</a></li>
+                        <li><a href="#" class="btn">FAQ</a></li>
+                        <li><a href="#" class="btn">Statements</a></li>
+                        <li><a href="#" class="btn">Logout</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+        <div class="overlay d-none"></div>
+        <!--main content wrapper-->
+        <div class="mcw">
+            <!--navigation here-->
+            <!--main content view-->
+            <div class="container-fluid pb-4">
+                <div class="row pt-4 pb-4 px-lg-4">
+                    <div class="col-12 d-flex justify-content-between align-items-center res-header">
+
+                        <div class="ps-3 d-lg-none d-inline-block">
+                            <a href="#" id="msbo" class="menu-toggle"><img src="./assets/img/menu.png" width="20"
+                                    alt=""></a>
+                        </div>
+
+                        <div class="logo d-lg-none d-inline-block">
+                            <img src="./assets/img/logoSharpline.png" alt="">
+                        </div>
+                        <div class="search mx-auto d-lg-block d-none">
+                            <form action="">
+                                <div class="position-relative search-icon">
+                                    <input type="text" placeholder="Search" class="form-control search">
+                                    <i class="fa fa-search"></i>
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="profile-dropdown">
+                            <div class="dropdown  d-inline-block">
+                                <button class="btn btn-secondary dropdown-toggle bg-transparent border-0 px-0"
+                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="./assets/img/profile-img.png" width="44" height="44" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                
+                </div>
+
+                <div class="row mt-2 px-lg-4">
+                        <div class="d-flex justify-content-between mb-2">
+                        <div>
+                            <h2 class="user-name mb-1">
+                                <span>Payout</span>
+                            </h2>
+                            <h2 class="user-name mb-0">
+                                Current Balance: <span class="fw-bold">USD 3000</span>
+                            </h2>
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <form action="">
+                            <div class="auth-form">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="row">
+                                            <nav>
+                                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                                    <button class="nav-link active" id="nav-paypal-tab"
+                                                        data-bs-toggle="tab" data-bs-target="#nav-paypal" type="button"
+                                                        role="tab" aria-controls="nav-paypal"
+                                                        aria-selected="true">Paypal</button>
+                                                    <button class="nav-link" id="nav-usa-bank-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#nav-usa-bank" type="button" role="tab"
+                                                        aria-controls="nav-usa-bank" aria-selected="false">USA Bank
+                                                        Payout</button>
+                                                    <button class="nav-link" id="nav-uk-bank-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#nav-uk-bank" type="button" role="tab"
+                                                        aria-controls="nav-uk-bank" aria-selected="false">UK Bank
+                                                        Account</button>
+                                                    <button class="nav-link" id="nav-euro-bank-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#nav-euro-bank" type="button" role="tab"
+                                                        aria-controls="nav-euro-bank" aria-selected="false">Euro Bank
+                                                        Account</button>
+                                                </div>
+                                            </nav>
+                                        </div>
+                                        <div class="row mt-4 px-lg-4 px-2">
+                                            <div class="tab-content" id="nav-tabContent">
+                                                <div class="tab-pane fade show active" id="nav-paypal" role="tabpanel"
+                                                    aria-labelledby="nav-paypal-tab">
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <p class="tab-title mt-0 mb-lg-4 mb-3 ms-2">Paypal</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="mb-2">
+                                                                    <label for="" class="form-label mb-0">Amount to be
+                                                                        Paid</label>
+                                                                </div>
+
+                                                                <div
+                                                                    class="d-flex justify-content-between gap-3 align-items-center">
+                                                                    <div class="mb-lg-4 mb-3">
+                                                                        <span class="currency-btn">
+                                                                            USD
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="mb-lg-4 mb-3 w-100">
+
+                                                                        <input type="number" placeholder="0.00"
+                                                                            class="form-control custom-control">
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Your PayPal
+                                                                        email</label>
+                                                                    <input type="email"
+                                                                        placeholder="Your PayPal email"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Confirm PayPal
+                                                                        email</label>
+                                                                    <input type="email"
+                                                                        placeholder="Confirm PayPal email"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Sharpline Distro
+                                                                        password</label>
+                                                                    <input type="password"
+                                                                        placeholder="Sharpline Distro password"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12 text-end">
+                                                                <button type="submit"
+                                                                    class="btn btn-primary rounded">Execute</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="tab-pane fade" id="nav-usa-bank" role="tabpanel"
+                                                    aria-labelledby="nav-usa-bank-tab">
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <p class="tab-title mt-0 mb-lg-4 mb-3 ms-2">USA Bank Account</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="mb-2">
+                                                                    <label for="" class="form-label mb-0">Amount to be
+                                                                        Paid</label>
+                                                                </div>
+
+                                                                <div
+                                                                    class="d-flex justify-content-between gap-3 align-items-center">
+                                                                    <div class="mb-lg-4 mb-3">
+                                                                        <span class="currency-btn">
+                                                                            USD
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="mb-lg-4 mb-3 w-100">
+
+                                                                        <input type="number" placeholder="0.00"
+                                                                            class="form-control custom-control">
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Name on Account</label>
+                                                                    <input type="text"
+                                                                        placeholder="Name on Account"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Address of Account Holder</label>
+                                                                    <input type="text"
+                                                                        placeholder="Address of Account Holder"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Account Number</label>
+                                                                    <input type="number"
+                                                                        placeholder="Account Number"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Routing Number</label>
+                                                                    <input type="number"
+                                                                        placeholder="Routing Number"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Bank Name</label>
+                                                                    <input type="text"
+                                                                        placeholder="Bank Name"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Bank Address</label>
+                                                                    <input type="text"
+                                                                        placeholder="Bank Address"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Sharpline Distro password</label>
+                                                                    <input type="password"
+                                                                        placeholder="Sharpline Distro password"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12 text-end">
+                                                                <button type="submit"
+                                                                    class="btn btn-primary rounded">Execute</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="tab-pane fade" id="nav-uk-bank" role="tabpanel"
+                                                    aria-labelledby="nav-uk-bank-tab">
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <p class="tab-title mt-0 mb-lg-4 mb-3 ms-2">UK Bank Account</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="mb-2">
+                                                                    <label for="" class="form-label mb-0">Amount to be
+                                                                        Paid</label>
+                                                                </div>
+
+                                                                <div
+                                                                    class="d-flex justify-content-between gap-3 align-items-center">
+                                                                    <div class="mb-lg-4 mb-3">
+                                                                        <span class="currency-btn">
+                                                                            USD
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="mb-lg-4 mb-3 w-100">
+
+                                                                        <input type="number" placeholder="0.00"
+                                                                            class="form-control custom-control">
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Name on Account</label>
+                                                                    <input type="text"
+                                                                        placeholder="Name on Account"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Address of Account Holder</label>
+                                                                    <input type="text"
+                                                                        placeholder="Address of Account Holder"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Account Number</label>
+                                                                    <input type="number"
+                                                                        placeholder="Account Number"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Sort Code</label>
+                                                                    <input type="text"
+                                                                        placeholder="Sort Code"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">IBAN</label>
+                                                                    <input type="text"
+                                                                        placeholder="IBAN"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Bank Address</label>
+                                                                    <input type="text"
+                                                                        placeholder="Bank Address"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Sharpline Distro password</label>
+                                                                    <input type="password"
+                                                                        placeholder="Sharpline Distro password"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12 text-end">
+                                                                <button type="submit"
+                                                                    class="btn btn-primary rounded">Execute</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="tab-pane fade" id="nav-euro-bank" role="tabpanel"
+                                                    aria-labelledby="nav-euro-bank-tab">
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <p class="tab-title mt-0 mb-lg-4 mb-3 ms-2">Euro Bank Account</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="mb-2">
+                                                                    <label for="" class="form-label mb-0">Amount to be
+                                                                        Paid</label>
+                                                                </div>
+
+                                                                <div
+                                                                    class="d-flex justify-content-between gap-3 align-items-center">
+                                                                    <div class="mb-lg-4 mb-3">
+                                                                        <span class="currency-btn">
+                                                                            USD
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="mb-lg-4 mb-3 w-100">
+
+                                                                        <input type="number" placeholder="0.00"
+                                                                            class="form-control custom-control">
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Name on Account</label>
+                                                                    <input type="text"
+                                                                        placeholder="Name on Account"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Address of Account Holder</label>
+                                                                    <input type="text"
+                                                                        placeholder="Address of Account Holder"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Account Number</label>
+                                                                    <input type="number"
+                                                                        placeholder="Account Number"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">BIC</label>
+                                                                    <input type="text"
+                                                                        placeholder="BIC"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">IBAN</label>
+                                                                    <input type="text"
+                                                                        placeholder="IBAN"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Bank Address</label>
+                                                                    <input type="text"
+                                                                        placeholder="Bank Address"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="mb-lg-4 mb-3">
+                                                                    <label for="" class="form-label">Sharpline Distro password</label>
+                                                                    <input type="password"
+                                                                        placeholder="Sharpline Distro password"
+                                                                        class="form-control custom-control">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12 text-end">
+                                                                <button type="submit"
+                                                                    class="btn btn-primary rounded">Execute</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>

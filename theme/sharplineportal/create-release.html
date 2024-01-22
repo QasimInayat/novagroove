@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharpline Distribution</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="https://apexcharts.com/wp-content/cache/autoptimize/css/autoptimize_aa6c2f4f315b93dbe9125a72252ed0eb.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <!--msb: main sidebar-->
+        <div class="msb" id="msb">
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header position-relative">
+                    <span class="close menu-toggle  d-lg-none d-block"><i class="fa-solid fa-xmark"></i></span>
+                    <div class="brand-wrapper">
+                        <!-- Brand -->
+                        <div class="brand-name-wrappers">
+                            <a class="navbar-brand" href="#">
+                                <img src="./assets/img/logoSharpline.png" width="180" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Main Menu -->
+                <div class="side-menu-container w-100">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="btn disabled border-0">Your Dashboard</a></li>
+                        <li><a href="dashboard.html" class="btn">Home</a></li>
+                        <li><a href="create-release.html" class="btn active">Create Release</a></li>
+                        <li><a href="marketing.html" class="btn">Free Marketing Campaign</a></li>
+                        <li><a href="my-release.html" class="btn">My Releases</a></li>
+                        <li><a href="credit-balance.html" class="btn">Credit Balance</a></li>
+                        <li><a href="my-account.html" class="btn">My Accounts</a></li>
+                        <li><a href="support.html" class="btn">Support</a></li>
+                        <li><a href="faq.html" class="btn">FAQ</a></li>
+                        <li><a href="statements.html" class="btn">Statements</a></li>
+                        <li><a href="login.html" class="btn">Logout</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+        <div class="overlay d-none"></div>
+        <!--main content wrapper-->
+        <div class="mcw">
+            <!--navigation here-->
+            <!--main content view-->
+            <div class="container-fluid pb-4">
+                <div class="row pt-4 pb-4 px-lg-4 px-2">
+                    <div class="col-12 d-flex justify-content-between align-items-center res-header">
+
+                        <div class="ps-3 d-lg-none d-inline-block">
+                            <a href="#" id="msbo" class="menu-toggle"><img src="./assets/img/menu.png" width="20"
+                                    alt=""></a>
+                        </div>
+
+                        <div class="logo d-lg-none d-inline-block">
+                            <img src="./assets/img/logoSharpline.png" alt="">
+                        </div>
+                        <div class="search mx-auto d-lg-block d-none">
+                            <form action="">
+                                <div class="position-relative search-icon">
+                                    <input type="text" placeholder="Search" class="form-control search">
+                                    <i class="fa fa-search"></i>
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="profile-dropdown">
+                            <div class="dropdown  d-inline-block">
+                                <button class="btn btn-secondary dropdown-toggle bg-transparent border-0 px-0"
+                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="./assets/img/profile-img.png" width="44" height="44" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center mt-4">
+                        <h2 class="page-title">Create Release</h2>
+                    </div>
+                </div>
+
+                <div class="row mt-2 px-lg-4">
+                    <div class="col-12">
+                        <form action="">
+                            <div class="auth-form">
+                                <div class="card">
+                                    <div class="card-body py-4 px-lg-4 px-2">
+                                        <div class="mb-lg-4 mb-3 input-icon position-relative">
+                                            <label for="" class="form-label">Number of Songs</label>
+                                            <select type="text" class="form-control custom-control w-100">
+                                                <option value="1">1(Single)</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                            <i class="fa-solid fa-chevron-down select-icon"></i>
+                                        </div>
+
+                                        <div class="mb-lg-4 mb-3">
+                                            <label for="" class="form-label">Album Title</label>
+                                            <input type="text" placeholder="Album Title"
+                                                class="form-control custom-control">
+                                        </div>
+
+                                        <div class="mb-lg-4 mb-3">
+                                            <label for="" class="form-label">UPC CODE</label>
+                                            <input type="text"
+                                                placeholder="If you don’t have one. Leave blank we’ll generate one for free"
+                                                class="form-control custom-control">
+                                        </div>
+
+                                        <div class="mb-lg-4 mb-3">
+                                            <label for="" class="form-label">LABEL</label>
+                                            <input type="text" placeholder="Label" class="form-control custom-control">
+                                        </div>
+
+                                        <div class="mb-lg-4 mb-3">
+                                            <label for="" class="form-label">Version?</label>
+                                            <input type="text" placeholder="Leave a blank if original"
+                                                class="form-control custom-control">
+                                        </div>
+
+                                        <div class="d-lg-flex justify-content-between gap-3 align-items-center ">
+
+                                            <div class="mb-lg-4 mb-3 w-100 input-icon position-relative">
+                                                <label for="" class="form-label">Artist</label>
+                                                <select type="text" class="form-control custom-control">
+                                                    <option value="1">Primary Artist</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                                <i class="fa-solid fa-chevron-down select-icon"></i>
+                                            </div>
+
+
+                                            <div class="d-flex w-100 justify-content-between gap-3 align-items-center">
+                                                <div class="mb-lg-4 mb-3 w-100">
+                                                    <label for="" class="form-label opacity-0">sfsa</label>
+                                                    <input type="text" placeholder="Artist Name"
+                                                        class="form-control custom-control">
+                                                </div>
+    
+                                                <div class="">
+                                                    <span class="increament">
+                                                        <i class="fa fa-plus"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="mb-lg-4 mb-3 position-relative input-icon input-left-icon">
+                                            <label for="" class="form-label">Release Date?</label>
+                                            <input type="date" class="form-control custom-control">
+                                            <i class="left-icon"><img src="./assets/img/calender.png" alt=""></i>
+                                        </div>
+
+                                        <div class="mb-lg-4 mb-3 position-relative">
+                                            <label for="" class="form-label">Album Artwork (3000x3000 pixel)</label>
+                                            <input type="file" class="form-control custom-control">
+                                        </div>
+
+                                        <div class="mb-lg-4 mb-3 position-relative input-icon">
+                                            <label for="" class="form-label">Primary Language</label>
+                                            <select type="text" class="form-control custom-control">
+                                                <option value="1">English</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                            <i class="fa-solid fa-chevron-down select-icon"></i>
+                                        </div>
+
+                                        <div class="d-md-flex justify-content-between gap-3">
+                                            <div class="mb-lg-4 mb-3 w-100 position-relative input-icon">
+                                                <label for="" class="form-label">Primary Genre</label>
+                                                <select type="text" class="form-control custom-control">
+                                                    <option value="1">Alternative</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                                <i class="fa-solid fa-chevron-down select-icon"></i>
+                                            </div>
+                                            <div class="mb-lg-4 mb-3 w-100 input-icon position-relative">
+                                                <label for="" class="form-label">Secondary Genre(Optional)</label>
+                                                <select type="text" class="form-control custom-control">
+                                                    <option value="1">Alternative</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                                <i class="fa-solid fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-lg-4 mb-3">
+                                            <label for="" class="form-label">Stories</label>
+                                            <div class="stories mt-2 border p-3 pb-0">
+
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/tidal.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/spotify.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/apple.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                                <span class="mx-2 mb-3 d-inline-block"><a href="javascript:;"><img
+                                                            src="./assets/img/youtube.png" width="45" height="45"
+                                                            alt=""></a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="card mt-3">
+                                    <div class="card-body py-4 px-lg-4 px-2">
+                                        <div class="mb-lg-4 mb-3">
+                                            <label for="" class="form-label">1. Title Track</label>
+                                            <input type="text" placeholder="Title Track"
+                                                class="form-control custom-control">
+                                        </div>
+
+                                        <div class="mb-lg-4 mb-3">
+                                            <label for="" class="form-label">ISRC CODE</label>
+                                            <input type="text"
+                                                placeholder="If you don’t have one. Leave blank we’ll generate one for free"
+                                                class="form-control custom-control">
+                                        </div>
+
+                                        <div class="d-lg-flex d-block justify-content-between gap-3 align-items-center ">
+
+                                            <div class="mb-lg-4 mb-3 w-100 position-relative input-icon">
+                                                <label for="" class="form-label">Artist</label>
+                                                <select type="text" class="form-control custom-control">
+                                                    <option value="1">Primary Artist</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                                <i class="fa-solid fa-chevron-down select-icon"></i>
+                                            </div>
+
+
+                                            <div class="mb-lg-4 mb-3 w-100">
+                                                <label for="" class="form-label opacity-0">sfsa</label>
+                                                <input type="text" placeholder="Artist Name"
+                                                    class="form-control custom-control">
+                                            </div>
+
+                                            <div class="d-flex w-100 justify-content-between gap-3 align-items-center">
+                                                <div class="mb-lg-4 mb-3 w-100">
+                                                    <label for="" class="form-label opacity-0">sfsa</label>
+                                                    <input type="text" placeholder="Spotify Link. Leave blank if you do not have any"
+                                                        class="form-control custom-control">
+                                                </div>
+                                                <div class="">
+                                                    <span class="increament">
+                                                        <i class="fa fa-plus"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                           
+
+                                            
+
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body border-top">
+                                        <div class="form-check ">
+                                            <input class="form-check-input me-3" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                <span class="custom-label">Contain Vocals</span>
+                                                <br>
+                                                My Song contains lyrics and vocals
+                                            </label>
+                                        </div>
+                                        <div class="form-check mt-3">
+                                            <input class="form-check-input me-3" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                <span class="custom-label">Instrumental</span>
+                                                <br>
+                                                My Song contains no lyrics and vocals
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body border-top">
+                                        <div class="form-check">
+                                            <input class="form-check-input me-3" type="radio" name="flexRadioDefault2"
+                                                id="flexRadioDefault21">
+                                            <label class="form-check-label" for="flexRadioDefault21">
+                                                <span class="custom-label">Clean</span>
+                                                <br>
+                                                My Song doesn't contain any profanity (Includes title & artwork)
+                                            </label>
+                                        </div>
+                                        <div class="form-check mt-3">
+                                            <input class="form-check-input me-3" type="radio" name="flexRadioDefault2"
+                                                id="flexRadioDefault22" checked>
+                                            <label class="form-check-label" for="flexRadioDefault22">
+                                                <span class="custom-label">Explicit</span>
+                                                <br>
+                                                My Song contain any profanity (Includes title & artwork)
+                                            </label>
+                                        </div>
+                                        <div class="form-check mt-3">
+                                            <input class="form-check-input me-3" type="radio" name="flexRadioDefault2"
+                                                id="flexRadioDefault23">
+                                            <label class="form-check-label" for="flexRadioDefault23">
+                                                <span class="custom-label">Radio Edit</span>
+                                                <br>
+                                                The track is clean/censored, but have a explict version.
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body border-top">
+                                        <div class="mb-lg-4 mb-3 input-icon position-relative">
+                                            <label for="" class="form-label">Language</label>
+                                            <select type="text" class="form-control custom-control">
+                                                <option value="1">English</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                            <i class="fa-solid fa-chevron-down select-icon"></i>
+                                        </div>
+
+                                        <div class="d-lg-flex d-block justify-content-between gap-3 align-items-center ">
+
+                                            <div class="mb-lg-4 mb-3 w-100 position-relative input-icon">
+                                                <label for="" class="form-label">Song Writers</label>
+                                                <select type="text" class="form-control custom-control">
+                                                    <option value="1">Composers</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                                <i class="fa-solid fa-chevron-down select-icon"></i>
+                                            </div>
+
+                                            <div class="d-flex w-100 justify-content-between gap-3 align-items-center">
+                                                <div class="mb-lg-4 mb-3 w-100">
+                                                    <label for="" class="form-label opacity-0">sfsa</label>
+                                                    <input type="text" placeholder="Name"
+                                                        class="form-control custom-control">
+                                                </div>
+    
+                                                <div class="">
+                                                    <span class="increament">
+                                                        <i class="fa fa-plus"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                            
+
+                                        </div>
+
+                                        <div class="mb-lg-4 mb-3">
+                                            <label for="" class="form-label">Audio File (WAV Files Only)</label>
+                                            <div id="zdrop" class="place-zdrop">
+                                                <div id="upload-label">
+                                                    <img src="./assets/img/add-photo-black.png" class="me-2" width="22" alt=""> Audio upload - Drag and drop or click
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="mb-lg-4 mb-3">
+                                            <div class="preview-container">
+                                                <div class="collection row" id="previews">
+                                                    <div class="collection-item col-sm-6 mb-3 clearhack valign-wrapper item-template"
+                                                        id="zdrop-template">
+                                                        <div class="left pv zdrop-info" data-dz-thumbnail>
+                                                            <div class="d-flex justify-content-between">
+                                                                <span data-dz-name></span> <span><a href="javascript:;"
+                                                                        data-dz-remove
+                                                                        class="btn-floating ph red white-text waves-effect waves-light remove"><i
+                                                                            class="fa fa-close"></i></a></span>
+                                                            </div>
+                                                            <div class="progress">
+                                                                <div class="determinate" style="width:0" data-dz-uploadprogress>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-12 text-end">
+                                                <button class="btn btn-primary rounded">Add Track</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card mt-3">
+                                    <div class="card-body py-4 px-lg-4 px-2">
+                                        <label class="special" for="">Mandatory Checkboxes</label>
+
+
+                                        <div class="mb-lg-4 mb-3">
+                                            <div class="form-check  mt-4">
+                                                <input class="form-check-input me-3" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    I accept that I can only upload audio that is music, and that ASMR, background sounds, etc. are not music.
+                                                </label>
+                                              </div>
+                                              <div class="form-check mt-4">
+                                                <input class="form-check-input  me-3" type="checkbox" value="" id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">
+                                                    I recorded this music and I have all necessary rights to legally sell it in stores worldwide & collect all royalties.
+                                                </label>
+                                              </div>
+                                              <div class="form-check  mt-4">
+                                                <input class="form-check-input me-3" type="checkbox" value="" id="flexCheckDefault1">
+                                                <label class="form-check-label" for="flexCheckDefault1">
+                                                    I agree that the content I upload is high quality (no short songs, no reuse of samples, and no samples from TV, radio, movies, etc. without permission).
+                                                </label>
+                                              </div>
+                                              <div class="form-check  mt-4">
+                                                <input class="form-check-input me-3" type="checkbox" value="" id="flexCheckDefault2">
+                                                <label class="form-check-label" for="flexCheckDefault2">
+                                                    I do not use the name of another artist in the name, song titles, album title, without their approval.
+                                                </label>
+                                              </div>
+                                              <div class="form-check  mt-4">
+                                                <input class="form-check-input me-3" type="checkbox" value="" id="flexCheckDefault3">
+                                                <label class="form-check-label" for="flexCheckDefault3">
+                                                    I have read and agree to the Terms of Service of Sharpline Distro.
+                                                </label>
+                                              </div>
+                                        </div>
+
+                                        <span class="ins d-block mt-4 mb-lg-4 mb-3">Add your First track this button will be enable on your first upload. Upload Your Track and hit on Add Track button</span>
+                                        
+                                        <div class="row">
+                                            <div class="col-12 text-end">
+                                                <button class="btn btn-primary rounded w-100">Create Release</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/dropzone.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script>
+         if ($('#zdrop').length) {
+        console.log($('#zdrop'));
+        initFileUploader("#zdrop");
+
+        function initFileUploader(target) {
+            var previewNode = document.querySelector("#zdrop-template");
+            previewNode.id = "";
+            var previewTemplate = previewNode.parentNode.innerHTML;
+            previewNode.parentNode.removeChild(previewNode);
+
+
+            var zdrop = new Dropzone(target, {
+                url: 'upload.php',
+                maxFiles: 1,
+                maxFilesize: 30,
+                previewTemplate: previewTemplate,
+                previewsContainer: "#previews",
+                clickable: "#upload-label"
+            });
+
+            zdrop.on("addedfile", function (file) {
+                $('.preview-container').css('visibility', 'visible');
+            });
+
+            zdrop.on("totaluploadprogress", function (progress) {
+                var progr = document.querySelector(".progress .determinate");
+                if (progr === undefined || progr === null)
+                    return;
+
+                progr.style.width = progress + "%";
+            });
+
+            zdrop.on('dragenter', function () {
+                $('.fileuploader').addClass("active");
+            });
+
+            zdrop.on('dragleave', function () {
+                $('.fileuploader').removeClass("active");
+            });
+
+            zdrop.on('drop', function () {
+                $('.fileuploader').removeClass("active");
+            });
+
+        }
+    }
+    </script>
+</body>
+
+</html>

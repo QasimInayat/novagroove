@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharpline Distribution</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <!--msb: main sidebar-->
+        <div class="msb" id="msb">
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header position-relative">
+                    <span class="close menu-toggle  d-lg-none d-block"><i class="fa-solid fa-xmark"></i></span>
+                    <div class="brand-wrapper">
+                        <!-- Brand -->
+                        <div class="brand-name-wrappers">
+                            <a class="navbar-brand" href="#">
+                                <img src="./assets/img/logoSharpline.png" width="180" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Main Menu -->
+                <div class="side-menu-container w-100">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="btn disabled border-0">Your Dashboard</a></li>
+                        <li><a href="dashboard.html" class="btn">Home</a></li>
+                        <li><a href="create-release.html" class="btn">Create Release</a></li>
+                        <li><a href="marketing.html" class="btn">Free Marketing Campaign</a></li>
+                        <li><a href="my-release.html" class="btn">My Releases</a></li>
+                        <li><a href="credit-balance.html" class="btn active">Credit Balance</a></li>
+                        <li><a href="my-account.html" class="btn">My Accounts</a></li>
+                        <li><a href="support.html" class="btn">Support</a></li>
+                        <li><a href="faq.html" class="btn">FAQ</a></li>
+                        <li><a href="statements.html" class="btn">Statements</a></li>
+                        <li><a href="login.html" class="btn">Logout</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+        <div class="overlay d-none"></div>
+        <!--main content wrapper-->
+        <div class="mcw">
+            <!--navigation here-->
+            <!--main content view-->
+            <div class="container-fluid pb-4">
+                <div class="row pt-4 pb-4 px-lg-4 px-2">
+                    <div class="col-12 d-flex justify-content-between align-items-center res-header">
+
+                        <div class="ps-3 d-lg-none d-inline-block">
+                            <a href="#" id="msbo" class="menu-toggle"><img src="./assets/img/menu.png" width="20"
+                                    alt=""></a>
+                        </div>
+
+                        <div class="logo d-lg-none d-inline-block">
+                            <img src="./assets/img/logoSharpline.png" alt="">
+                        </div>
+                        <div class="search mx-auto d-lg-block d-none">
+                            <form action="">
+                                <div class="position-relative search-icon">
+                                    <input type="text" placeholder="Search" class="form-control search">
+                                    <i class="fa fa-search"></i>
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="profile-dropdown">
+                            <div class="dropdown  d-inline-block">
+                                <button class="btn btn-secondary dropdown-toggle bg-transparent border-0 px-0"
+                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="./assets/img/profile-img.png" width="44" height="44" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+             
+
+                </div>
+
+                <div class="row  px-lg-4">
+                    <div class="">
+                        <div>
+                            <h2 class="user-name">
+                                <span>Credit Balance</span>
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3 pe-0">
+                        <div class="col-lg-5 col-md-6 mx-auto pe-0">
+                            <div class="balance text-center p-4">
+                                <h3>
+                                    Credit Balance
+                                    <br>
+                                    $3000
+                                </h3>
+                                <button class="btn btn-primary mt-3">Payout</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body px-0">
+                                <div class="card-header d-flex justify-content-between bg-transparent border-0 py-0">
+                                    <p>History</p>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary bg-transparent border-0" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Last 15 Days</a></li>
+                                            <li><a class="dropdown-item" href="#">Last 45 Days</a></li>
+                                            <li><a class="dropdown-item" href="#">Last 60 Days</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="table-responsive mt-n1">
+                                    <table class="table px-4 mb-0">
+                                        <tr>
+                                            <th class="ps-4 w-25">#</th>
+                                            <th class="w-50">Amount($)</th>
+                                            <th class="pe-4 w-25">Date</th>
+                                        </tr>
+                                       
+                                        <tr>
+                                            <td class="ps-4 py-3">1</td>
+                                            <td class="py-3">1000</td>
+                                            <td class="pe-4 py-3">10 November 2022</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="ps-4 py-3">2</td>
+                                            <td class="py-3">2000</td>
+                                            <td class="pe-4 py-3">10 November 2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ps-4 py-3">3</td>
+                                            <td class="py-3">3000</td>
+                                            <td class="pe-4 py-3">10 November 2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ps-4 py-3">4</td>
+                                            <td class="py-3">3000</td>
+                                            <td class="pe-4 py-3">10 November 2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ps-4 py-3">5</td>
+                                            <td class="py-3">3000</td>
+                                            <td class="pe-4 py-3">10 November 2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ps-4 py-3">6</td>
+                                            <td class="py-3">3000</td>
+                                            <td class="pe-4 py-3">10 November 2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ps-4 py-3">7</td>
+                                            <td class="py-3">3000</td>
+                                            <td class="pe-4 py-3">10 November 2022</td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                                <div class="row mt-4 mb-2 px-4">
+                                    <div class="d-flex justify-lg-content-end justify-content-center align-items-center gap-3">
+                                        <span class="pagination-btn d-block">
+                                            <i class="fa-solid fa-chevron-left"></i>
+                                        </span>
+                                        <span>1/12</span>
+                                        <span class="pagination-btn d-block">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sharpline</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="assets/vendors/jvectormap/jquery-jvectormap.css">
+    <link rel="stylesheet" href="assets/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel-2/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel-2/owl.theme.default.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+            <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+                <a class="sidebar-brand brand-logo" href="index.html"><img src="assets/images/logoSharpline.png" alt="logo" class="img__logo" /></a>
+            </div>
+            <ul class="nav">
+                <li class="nav-item profile">
+                    <div class="profile-desc">
+                        <div class="profile-pic">
+                            <div class="profile-name ml-0">
+                                <h5 class="mb-0 font-weight-normal">liamgareth</h5>
+                            </div>
+                        </div>
+                        <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list" aria-labelledby="profile-dropdown">
+                            <a href="myAccount.html" class="dropdown-item preview-item">
+                                <div class="preview-thumbnail">
+                                    <div class="preview-icon bg-dark rounded-circle">
+                                        <i class="mdi mdi-settings text-primary"></i>
+                                    </div>
+                                </div>
+                                <div class="preview-item-content">
+                                    <p class="preview-subject ellipsis mb-1 text-small">Account settings</p>
+                                </div>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item preview-item">
+                                <div class="preview-thumbnail">
+                                    <div class="preview-icon bg-dark rounded-circle">
+                                        <i class="mdi mdi-onepassword  text-info"></i>
+                                    </div>
+                                </div>
+                                <div class="preview-item-content">
+                                    <p class="preview-subject ellipsis mb-1 text-small">Logout</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item nav-category">
+                    <span class="nav-link">Your Dashboard</span>
+                </li>
+
+                <!-- Sharpline Side Dashboard start  -->
+
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="index.html">
+                        <!-- <span class="menu-icon">
+              <i class="mdi mdi-home"></i>
+            </span> -->
+                        <span class="menu-title">Home</span>
+                    </a>
+                </li>
+
+
+                <!-- Sharpline Side Dashboard End  -->
+
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="create-release-v1.html">
+                        <!-- <span class="menu-icon">
+              <i class="mdi mdi-playlist-play"></i>
+            </span> -->
+                        <span class="menu-title">Create Releases</span>
+                    </a>
+                </li>
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="freemarketing-campaing.html">
+                        <!-- <span class="menu-icon">
+              <i class="mdi mdi-playlist-play"></i>
+            </span> -->
+                        <span class="menu-title">Free Marketing Campaign</span>
+                    </a>
+                </li>
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="my-release.html">
+                        <span class="menu-title">My Releases</span>
+                    </a>
+                </li>
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="credit-balance.html">
+                        <span class="menu-title">Credit Balance</span>
+                    </a>
+                </li>
+
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="myAccount.html">
+                        <span class="menu-title">My Account</span>
+                    </a>
+                </li>
+
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="support.html">
+                        <span class="menu-title">Support</span>
+                    </a>
+                </li>
+
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="FAQs.html">
+                        <span class="menu-title">FAQ</span>
+                    </a>
+                </li>
+
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="analytics.html">
+                        <span class="menu-title">Analytics</span>
+                    </a>
+                </li>
+
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="statement.html">
+                        <span class="menu-title">Statements</span>
+                    </a>
+                </li>
+
+                <!-- <li class="nav-item menu-items">
+          <a class="nav-link" href="pages/charts/chartjs.html">
+            <span class="menu-icon">
+              <i class="mdi mdi-chart-bar"></i>
+            </span>
+            <span class="menu-title">Charts</span>
+          </a>
+        </li>
+        <li class="nav-item menu-items">
+          <a class="nav-link" href="pages/icons/mdi.html">
+            <span class="menu-icon">
+              <i class="mdi mdi-contacts"></i>
+            </span>
+            <span class="menu-title">Icons</span>
+          </a>
+        </li>
+        <li class="nav-item menu-items">
+          <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+            <span class="menu-icon">
+              <i class="mdi mdi-security"></i>
+            </span>
+            <span class="menu-title">User Pages</span>
+            <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="auth">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item menu-items">
+          <a class="nav-link"
+            href="http://www.bootstrapdash.com/demo/corona-free/jquery/documentation/documentation.html">
+            <span class="menu-icon">
+              <i class="mdi mdi-file-document-box"></i>
+            </span>
+            <span class="menu-title">Documentation</span>
+          </a>
+        </li> -->
+            </ul>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_navbar.html -->
+            <nav class="navbar p-0 fixed-top d-flex flex-row">
+                <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+                    <a class="navbar-brand brand-logo-mini" href="index.html"><img src="assets/images/logoSharpline.png" alt="logo" /></a>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+              <span class="mdi mdi-format-line-spacing"></span>
+            </button>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="container-fluid d-flex justify-content-between align-items-center p-2 mb-3">
+                            <div class="row mb-4 w-100">
+                                <div class="col-md-6">
+                                    <h1 class="h1 ">Hi, <span class="user" style="color: white;">liamgareth</span></h1>
+                                </div>
+                                <div class="col-md-6 text-left text-md-right">
+                                    <a href="create-release-v1.html" class="btn btn-lg" style="background-color:white; color: #333;">Create
+                Release</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 grid-margin  ">
+                            <div class="card-credit rounded text-center pt-4 pb-4" style="border: 1px  solidwhite;">
+                                <h2 class="h2">
+                                    <span>Credit Balance</span>
+                                    <span>$299.93</span>
+                                </h2> <br>
+                                <div class="payout">
+                                    <a href="payout.html" class="btn  btn-lg btn-dark" style="background-color:white; color: #333;;">Pay
+                  out</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-12 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body">
+
+                                    <h4 class="card-title">Stream Analytics</h4>
+                                    <div class="chart-container" style="position: relative; height:40vh; width:80vw">
+                                        <canvas id="canvas"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row">
+
+                        <div class="col-lg-8 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Platforms</h4>
+                                    <!-- <p class="card-description"> Add class <code>.table-striped</code> -->
+                                    </p>
+                                    <div class="table-responsive">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th> PLATFORM </th>
+                                                    <th> STREAM </th>
+                                                    <th> CHANGE </th>
+                                                    <th> % SPLIT </th>
+                                                    <!-- <th> Deadline </th> -->
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="py-1">
+                                                        <span>Spotify</span>
+                                                    </td>
+                                                    <td> 74.236 </td>
+                                                    <td>
+                                                        -54%
+                                                    </td>
+                                                    <td> 99% </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="py-1">
+                                                        <span>Youtube</span>
+                                                    </td>
+                                                    <td> 74.236 </td>
+                                                    <td>
+                                                        -54%
+                                                    </td>
+                                                    <td> 99% </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="py-1">
+                                                        <span>Apple</span>
+                                                    </td>
+                                                    <td> 74.236 </td>
+                                                    <td>
+                                                        -54%
+                                                    </td>
+                                                    <td> 99% </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-4 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 mb-2 p-1 text-center">
+                                            <span>Top Stores</span>
+                                            <span class="badge badge-success p-1 rounded" style="margin-left: 1rem;">Last 30</span>
+                                        </div>
+
+                                        <div class="col-12 mb-3">
+                                            <div class="d-flex justify-content-center">
+                                                <span class="badge rounded-circle p-4" style="font-size: 2rem; background-color: white;">$0</span>
+                                            </div>
+                                        </div>
+                                        <!-- Table for stores  start -->
+                                        <div class="col-lg-12">
+                                            <div class="table-responsive">
+                                                <table class="table table-striped">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="py-1">Spotify</td>
+                                                            <td> 0% </td>
+                                                            <td> $0 </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td class="py-1">Apple</td>
+                                                            <td> 0% </td>
+                                                            <td> $0 </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="py-1">Igroove</td>
+                                                            <td> 0% </td>
+                                                            <td> $0 </td>
+                                                        </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Stream By Country</h4>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <i class="flag-icon flag-icon-us"></i>
+                                                            </td>
+                                                            <td>USA</td>
+                                                            <td class="text-right"> 1500 </td>
+                                                            <td class="text-right font-weight-medium"> 56.35% </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <i class="flag-icon flag-icon-de"></i>
+                                                            </td>
+                                                            <td>Germany</td>
+                                                            <td class="text-right"> 800 </td>
+                                                            <td class="text-right font-weight-medium"> 33.25% </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <i class="flag-icon flag-icon-au"></i>
+                                                            </td>
+                                                            <td>Australia</td>
+                                                            <td class="text-right"> 760 </td>
+                                                            <td class="text-right font-weight-medium"> 15.45% </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <i class="flag-icon flag-icon-gb"></i>
+                                                            </td>
+                                                            <td>United Kingdom</td>
+                                                            <td class="text-right"> 450 </td>
+                                                            <td class="text-right font-weight-medium"> 25.00% </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <i class="flag-icon flag-icon-ro"></i>
+                                                            </td>
+                                                            <td>Romania</td>
+                                                            <td class="text-right"> 620 </td>
+                                                            <td class="text-right font-weight-medium"> 10.25% </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <i class="flag-icon flag-icon-br"></i>
+                                                            </td>
+                                                            <td>Brasil</td>
+                                                            <td class="text-right"> 230 </td>
+                                                            <td class="text-right font-weight-medium"> 75.00% </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Music Plateforms -->
+
+                <!-- Other Contries Data  sharplineDistro -->
+                <!-- <div class="row" style="background-color: #000 !important;">
+          <div class="col-12 bg-dark">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Data From Other Countires</h4>
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="table-responsive">
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <i class="flag-icon flag-icon-us"></i>
+                            </td>
+                            <td>USA</td>
+                            <td class="text-right"> 1500 </td>
+                            <td class="text-right font-weight-medium"> 56.35% </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i class="flag-icon flag-icon-de"></i>
+                            </td>
+                            <td>Germany</td>
+                            <td class="text-right"> 800 </td>
+                            <td class="text-right font-weight-medium"> 33.25% </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i class="flag-icon flag-icon-au"></i>
+                            </td>
+                            <td>Australia</td>
+                            <td class="text-right"> 760 </td>
+                            <td class="text-right font-weight-medium"> 15.45% </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i class="flag-icon flag-icon-gb"></i>
+                            </td>
+                            <td>United Kingdom</td>
+                            <td class="text-right"> 450 </td>
+                            <td class="text-right font-weight-medium"> 25.00% </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i class="flag-icon flag-icon-ro"></i>
+                            </td>
+                            <td>Romania</td>
+                            <td class="text-right"> 620 </td>
+                            <td class="text-right font-weight-medium"> 10.25% </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i class="flag-icon flag-icon-br"></i>
+                            </td>
+                            <td>Brasil</td>
+                            <td class="text-right"> 230 </td>
+                            <td class="text-right font-weight-medium"> 75.00% </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div id="audience-map" class="vector-map"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+            </div>
+            <!-- content-wrapper ends -->
+            <!-- partial:partials/_footer.html -->
+        </div>
+        <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="assets/vendors/chart.js/Chart.min.js"></script>
+    <script src="assets/vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="assets/vendors/jvectormap/jquery-jvectormap.min.js"></script>
+    <script src="assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="assets/vendors/owl-carousel-2/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap5.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="assets/js/off-canvas.js"></script>
+    <script src="assets/js/hoverable-collapse.js"></script>
+    <script src="assets/js/misc.js"></script>
+    <script src="assets/js/settings.js"></script>
+    <script src="assets/js/todolist.js"></script>
+
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="assets/js/dashboard.js"></script>
+    <!-- End custom js for this page -->
+    <!-- Adding Charst to sharplinedistro -->
+    <script src="assets/js/chart.js"></script>
+    <script type="">
+        $(document).ready(function () { $('#example').DataTable(); });
+    </script>
+    <script type="">
+        const colors = { purple: { default: "rgba(149, 76, 233, 1)", half: "rgba(149, 76, 233, 0.5)", quarter: "rgba(149, 76, 233, 0.25)", zero: "rgba(149, 76, 233, 0)" }, indigo: { default: "rgba(80, 102, 120, 1)", quarter: "rgba(80, 102, 120, 0.25)" } }; const
+        weight = [600, 1000, 100, 300]; const labels = [ "1 July", "7 July", "14 July", "21 July", ]; const ctx = document.getElementById("canvas").getContext("2d"); ctx.canvas.height =133; gradient = ctx.createLinearGradient(0, 25, 0, 300); gradient.addColorStop(0,
+        colors.purple.half); gradient.addColorStop(0.35, colors.purple.quarter); gradient.addColorStop(1, colors.purple.zero); const options = { type: "line", data: { labels: labels, datasets: [ { fill: true, backgroundColor: gradient, pointBackgroundColor:
+        colors.purple.default, borderColor: colors.purple.default, data: weight, lineTension: 0.2, borderWidth: 2, pointRadius: 3 } ] }, options: { layout: { padding: 10 }, responsive: true, legend: { display: false }, scales: { xAxes: [ { gridLines:
+        { display: false }, ticks: { padding: 10, autoSkip: false, maxRotation: 15, minRotation: 15, maxTicksLimit: 5 }, gridLines: { display: false, } } ], yAxes: [ { scaleLabel: { display: true, labelString: "", padding: 10 }, gridLines: { display:
+        true, color: colors.indigo.quarter }, ticks: { beginAtZero: false, max: 1000, min: 0, padding: 10, maxTicksLimit: 6 }, gridLines: { display: false, } } ] } } }; window.onload = function () { window.myLine = new Chart(ctx, options); Chart.defaults.global.defaultFontColor
+        = colors.indigo.default; Chart.defaults.global.defaultFontFamily = "Fira Sans"; };
+
+    </script>
+</body>
+
+</html>

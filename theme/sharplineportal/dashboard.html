@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharpline Distribution</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <!--msb: main sidebar-->
+        <div class="msb" id="msb">
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header position-relative">
+                    <span class="close menu-toggle  d-lg-none d-block"><i class="fa-solid fa-xmark"></i></span>
+                    <div class="brand-wrapper">
+                        <!-- Brand -->
+                        <div class="brand-name-wrappers">
+                            <a class="navbar-brand" href="#">
+                                <img src="./assets/img/logoSharpline.png" width="180" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Main Menu -->
+                <div class="side-menu-container w-100">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="btn disabled border-0">Your Dashboard</a></li>
+                        <li><a href="dashboard.html" class="btn active">Home</a></li>
+                        <li><a href="create-release.html" class="btn">Create Release</a></li>
+                        <li><a href="marketing.html" class="btn">Free Marketing Campaign</a></li>
+                        <li><a href="my-release.html" class="btn">My Releases</a></li>
+                        <li><a href="credit-balance.html" class="btn">Credit Balance</a></li>
+                        <li><a href="my-account.html" class="btn">My Accounts</a></li>
+                        <li><a href="support.html" class="btn">Support</a></li>
+                        <li><a href="faq.html" class="btn">FAQ</a></li>
+                        <li><a href="statements.html" class="btn">Statements</a></li>
+                        <li><a href="login.html" class="btn">Logout</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+        <div class="overlay d-none"></div>
+        <!--main content wrapper-->
+        <div class="mcw">
+            <!--navigation here-->
+            <!--main content view-->
+            <div class="container-fluid pb-4">
+                <div class="row pt-4 pb-4 px-lg-4 px-2">
+                    <div class="col-12 d-flex justify-content-between align-items-center res-header">
+
+                        <div class="ps-3 d-lg-none d-inline-block">
+                            <a href="#" id="msbo" class="menu-toggle"><img src="./assets/img/menu.png" width="20"
+                                    alt=""></a>
+                        </div>
+
+                        <div class="logo d-lg-none d-inline-block">
+                            <img src="./assets/img/logoSharpline.png" alt="">
+                        </div>
+                        <div class="search mx-auto d-lg-block d-none">
+                            <form action="">
+                                <div class="position-relative search-icon">
+                                    <input type="text" placeholder="Search" class="form-control search">
+                                    <i class="fa fa-search"></i>
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="profile-dropdown">
+                            <div class="dropdown  d-inline-block">
+                                <button class="btn btn-secondary dropdown-toggle bg-transparent border-0 px-0"
+                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="./assets/img/profile-img.png" width="44" height="44" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-end mt-4">
+                        <button class="btn btn-primary rounded">Create Release</button>
+                    </div>
+                </div>
+
+                <div class="row px-lg-4 px-0 mt-3">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between mb-2">
+                                    <div>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle bg-transparent"
+                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Last 30 Days
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Last 15 Days</a></li>
+                                                <li><a class="dropdown-item" href="#">Last 45 Days</a></li>
+                                                <li><a class="dropdown-item" href="#">Last 60 Days</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary bg-transparent border-0" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Last 15 Days</a></li>
+                                                <li><a class="dropdown-item" href="#">Last 45 Days</a></li>
+                                                <li><a class="dropdown-item" href="#">Last 60 Days</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="dash_chart"></div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row px-lg-4 px-0 mt-4">
+                    <div class="col-12">
+                        <h2 class="section-heading">Streams By Number</h2>
+                    </div>
+                </div>
+
+                <section class="streames">
+                    <div class="row px-lg-4 px-0 mt-3">
+                        <div class="streams">
+                            <div class="card stream-card">
+                                <div class="card-header text-end bg-transparent border-0">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary bg-transparent border-0" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Last 15 Days</a></li>
+                                            <li><a class="dropdown-item" href="#">Last 45 Days</a></li>
+                                            <li><a class="dropdown-item" href="#">Last 60 Days</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-body mt-n4">
+                                    <img src="./assets/img/spotify.png" width="56" height="56" alt="" class="d-block">
+                                    <span class="d-block mt-4">Spotify</span>
+                                    <p class="my-1">20K</p>
+                                </div>
+                            </div>
+
+                            <div class="card stream-card">
+                                <div class="card-header text-end bg-transparent border-0">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary bg-transparent border-0" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Last 15 Days</a></li>
+                                            <li><a class="dropdown-item" href="#">Last 45 Days</a></li>
+                                            <li><a class="dropdown-item" href="#">Last 60 Days</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-body mt-n4">
+                                    <img src="./assets/img/apple.png" width="56" height="56" alt="" class="d-block">
+                                    <span class="d-block mt-4">Apple</span>
+                                    <p class="my-1">10K</p>
+                                </div>
+                            </div>
+
+                            <div class="card stream-card">
+                                <div class="card-header text-end bg-transparent border-0">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary bg-transparent border-0" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Last 15 Days</a></li>
+                                            <li><a class="dropdown-item" href="#">Last 45 Days</a></li>
+                                            <li><a class="dropdown-item" href="#">Last 60 Days</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-body mt-n4">
+                                    <img src="./assets/img/youtube.png" width="56" height="56" alt="" class="d-block">
+                                    <span class="d-block mt-4">Youtube</span>
+                                    <p class="my-1">15K</p>
+                                </div>
+                            </div>
+
+                            <div class="card stream-card">
+                                <div class="card-header text-end bg-transparent border-0">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary bg-transparent border-0" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Last 15 Days</a></li>
+                                            <li><a class="dropdown-item" href="#">Last 45 Days</a></li>
+                                            <li><a class="dropdown-item" href="#">Last 60 Days</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-body mt-n4">
+                                    <img src="./assets/img/tidal.png" width="56" height="56" alt="" class="d-block">
+                                    <span class="d-block mt-4">Tidal</span>
+                                    <p class="my-1">20K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row px-lg-4 px-0 mt-4">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body px-0">
+                                    <div class="card-header text-end bg-transparent border-0 py-0">
+                                        <div class="dropdown mb-n4 d-lg-block d-none">
+                                            <button class="btn btn-secondary bg-transparent border-0" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Last 15 Days</a></li>
+                                                <li><a class="dropdown-item" href="#">Last 45 Days</a></li>
+                                                <li><a class="dropdown-item" href="#">Last 60 Days</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <table class="table px-4 mb-0 home-table">
+                                            <tr>
+                                                <th class="ps-4">Streams By Country</th>
+                                                <th class="pe-4 text-center">Streams By Count</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="ps-4 py-3">
+                                                    <img src="./assets/img/flag1.png" width="25" class="me-2" alt="">
+                                                    <span>USA</span>
+                                                </td>
+                                                <td class="pe-4 py-3 text-center">
+                                                    0
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ps-4 py-3">
+                                                    <img src="./assets/img/flag2.png" width="25" class="me-2" alt="">
+                                                    <span>Norway</span>
+                                                </td>
+                                                <td class="pe-4 py-3 text-center">
+                                                    0
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ps-4 py-3">
+                                                    <img src="./assets/img/flag3.png" width="25" class="me-2" alt="">
+                                                    <span>Sweden</span>
+                                                </td>
+                                                <td class="pe-4 py-3 text-center">
+                                                    0
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ps-4 py-3">
+                                                    <img src="./assets/img/flag4.png" width="25" class="me-2" alt="">
+                                                    <span>United Kingdom</span>
+                                                </td>
+                                                <td class="pe-4 py-3 text-center">
+                                                    0
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ps-4 py-3">
+                                                    <img src="./assets/img/flag5.png" width="25" class="me-2" alt="">
+                                                    <span>Ukrain</span>
+                                                </td>
+                                                <td class="pe-4 py-3 text-center">
+                                                    0
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ps-4 py-3">
+                                                    <img src="./assets/img/flag6.png" width="25" class="me-2" alt="">
+                                                    <span>Tunisia</span>
+                                                </td>
+                                                <td class="pe-4 py-3 text-center">
+                                                    0
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <div class="row px-lg-4 px-0 mt-4">
+                    <div class="col-12">
+                        <h2 class="section-heading">Streams By Revenue</h2>
+                    </div>
+                </div>
+
+                <section class="revenue">
+                    <div class="row px-lg-4 px-0 mt-3">
+                        <div class="streams">
+                            <div class="card stream-card">
+                                <div class="card-body py-5">
+                                    <img src="./assets/img/spotify.png" width="56" height="56" alt="" class="d-block">
+                                    <span class="d-block mt-4">Spotify</span>
+                                    <p class="my-1">$2000</p>
+                                </div>
+                            </div>
+
+                            <div class="card stream-card">
+
+                                <div class="card-body py-5">
+                                    <img src="./assets/img/apple.png" width="56" height="56" alt="" class="d-block">
+                                    <span class="d-block mt-4">Apple</span>
+                                    <p class="my-1">$1000</p>
+                                </div>
+                            </div>
+
+                            <div class="card stream-card">
+
+                                <div class="card-body py-5">
+                                    <img src="./assets/img/youtube.png" width="56" height="56" alt="" class="d-block">
+                                    <span class="d-block mt-4">Youtube</span>
+                                    <p class="my-1">$7000</p>
+                                </div>
+                            </div>
+
+                            <div class="card stream-card">
+
+                                <div class="card-body py-5">
+                                    <img src="./assets/img/tidal.png" width="56" height="56" alt="" class="d-block">
+                                    <span class="d-block mt-4">Tidal</span>
+                                    <p class="my-1">$3000</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <div class="row px-lg-4 px-0 mt-4">
+                    <div class="col-12">
+                        <h2 class="section-heading">Top Performing Releases</h2>
+                    </div>
+                </div>
+
+                <section class="performing">
+                    <div class="row px-lg-4 px-0 mt-3">
+                        <div class="streams">
+                            <div class="card stream-card">
+                                <div class="card-body py-5">
+                                    <img src="./assets/img/album-thum1.png" width="74" height="74" alt=""
+                                        class="d-block">
+                                    <h4 class="mt-4 mb-1">Say They real</h4>
+                                    <span class="d-block">Icy Lando</span>
+                                    <p class="mt-4">3503 Streams</p>
+                                </div>
+                            </div>
+
+                            <div class="card stream-card">
+                                <div class="card-body py-5">
+                                    <img src="./assets/img/album-thum2.png" width="74" height="74" alt=""
+                                        class="d-block">
+                                    <h4 class="mt-4 mb-1">so beautiful</h4>
+                                    <span class="d-block">sean kingston</span>
+                                    <p class="mt-4">2003 Streams</p>
+                                </div>
+                            </div>
+
+                            <div class="card stream-card">
+                                <div class="card-body py-5">
+                                    <img src="./assets/img/album-thum3.png" width="74" height="74" alt=""
+                                        class="d-block">
+                                    <h4 class="mt-4 mb-1">Peligrosa</h4>
+                                    <span class="d-block">Peligrosa</span>
+                                    <p class="mt-4">2003 Streams</p>
+                                </div>
+                            </div>
+
+                            <div class="card stream-card">
+                                <div class="card-body py-5">
+                                    <img src="./assets/img/album-thum4.png" width="74" height="74" alt=""
+                                        class="d-block">
+                                    <h4 class="mt-4 mb-1">When we were</h4>
+                                    <span class="d-block">Taylor Swift</span>
+                                    <p class="mt-4">903 Streams</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <div class="row px-lg-4 px-0">
+                    <div class="col-12 text-end mt-4">
+                        <button class="btn btn-primary rounded">View Analytics</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            setTimeout(() => {
+                var options = {
+                    colors: ['white'],
+                    series: [{
+                        name: 'series1',
+                        data: ['2000', '1000', '2500', '2000', '1000'
+                        ]
+                    }],
+                    chart: {
+                        height: 350,
+                        width: '100%',
+                        type: 'area',
+                        foreColor: 'white',
+                        toolbar: {
+                            show: false
+                        }
+                    },
+                    grid: {
+                        borderColor: '#303030',
+                        //   strokeDashArray: 7,
+                        show: false, // you can either change hear to disable all grids
+                        xaxis: {
+                            lines: {
+                                show: true //or just here to disable only x axis grids
+                            }
+                        },
+                        yaxis: {
+                            lines: {
+                                show: false //or just here to disable only y axis
+                            }
+                        },
+                    },
+                    dataLabels: {
+                        enabled: false
+                    },
+                    fill: {
+                        type: "gradient",
+                        gradient: {
+                            shadeIntensity: 0.8,
+                            gradientToColors: 'transparent',
+                            opacityFrom: 0.6,
+                            opacityTo: 0.2,
+                            stops: [0, 90, 100]
+                        }
+                    },
+                    stroke: {
+                        curve: 'smooth',
+                         width: 2,
+                    },
+                    xaxis: {
+                        type: 'date',
+                        categories: [
+                            "01 Jan",
+                            "02 Jan",
+                            "03 Jan",
+                            "04 Jan",
+                            "05 Jan",
+                        ]
+                    },
+                    yaxis: {
+                        labels: {
+                            formatter: function (value) {
+                                var val = Math.abs(value)
+                                if (val >= 1000) {
+                                    val = (val / 1000).toFixed(0) + ' K'
+                                }
+                                return val
+                            }
+                        }
+                    },
+                    tooltip: {
+                        x: {
+                            format: 'dd/MM/yy'
+                        },
+                    },
+                };
+
+                var chart = new ApexCharts(document.querySelector("#dash_chart"), options);
+                chart.render();
+            }, 200);
+
+            $('.streams').slick({
+                dots: false,
+                infinite: false,
+                // centerMode: true,
+                // // centerPadding: '50px',
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 3.2,
+                            slidesToScroll: 1,
+                            infinite: false,
+                            dots: false
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2.2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1.2,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
