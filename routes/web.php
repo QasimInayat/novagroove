@@ -34,7 +34,10 @@ Route::get('test-template',function(){
     return view('emails.test');
 });
 
-Route::get('/', [SiteController::class, 'index'])->name('site.index');
+// Route::get('/', [SiteController::class, 'index'])->name('site.index');
+Route::get('/', function(){
+    return redirect()->route('login'); 
+});
 Route::get('about-us', [SiteController::class, 'aboutUs'])->name('site.aboutUs');
 Route::get('faqs', [SiteController::class, 'faqs'])->name('site.faqs');
 Route::get('contact', [SiteController::class, 'contact'])->name('site.contact');

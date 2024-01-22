@@ -785,7 +785,6 @@ script.src = target;var elem = document.head;elem.appendChild(script);
    </style>
    <link rel='stylesheet' id='pms-style-front-end-css' href='{{asset("wp-content/plugins/paid-member-subscriptions/assets/css/style-front-end.css?ver=2.7.4")}}' media='all'>
    <script src='{{asset("wp-content/plugins/advanced-backgrounds/assets/vendor/jarallax/jarallax.min.js?ver=2.0.4")}}' id='jarallax-js'></script>
-   <script src="//code.tidio.co/ispsfy7h8xvld7cmd2gaoeslxpoxsvhs.js" async></script>
 
    <script src='{{asset("wp-content/plugins/advanced-backgrounds/assets/vendor/jarallax/jarallax-video.min.js?ver=2.0.4")}}' id='jarallax-video-js'></script>
    <script id='nk-awb-js-extra'>

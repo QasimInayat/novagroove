@@ -60,7 +60,6 @@
         <script src="{{asset('assets/portal-revamp/js/bootstrap.bundle.min.js')}}"></script>
         <script src="{{asset('assets/portal-revamp/js/custom.js')}}"></script>
         @stack('scripts')
-    <script src="//code.tidio.co/ispsfy7h8xvld7cmd2gaoeslxpoxsvhs.js" async></script>
 
    </body>
 </html>

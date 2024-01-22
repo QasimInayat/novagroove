@@ -84,6 +84,6 @@
    </script>
    
     @stack('scripts')
-    <script src="//code.tidio.co/ispsfy7h8xvld7cmd2gaoeslxpoxsvhs.js" async></script>
+
 </body>
 </html>
